@@ -1,0 +1,191 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: black;
+}
+
+.container{
+	padding: 20px 275px;
+    position: relative;
+}
+
+.planets{
+	border: 1px solid black;
+	border-radius: 20px;
+	padding: 20px;
+	position: absolute;
+}
+
+#sun{
+	height: 100px;
+	width: 100px;
+	box-shadow: 0 0 130px yellow;
+	background-color: yellow;
+	border-radius: 100%;
+	border: 5px solid orange;
+	position: absolute;
+	top: 366px;
+    left: 622px;
+}
+
+.pluto{
+	background-color: blue;
+	left: 1%;
+    top: 29%;
+    position: absolute;
+}
+
+#pluto_orbit{
+	border: 1px groove #fff;
+	border-radius: 400px;
+    padding: 400px;
+    position: absolute;
+}
+
+.neptune{
+	background-color: orange;
+	left: 9%;
+    top: 15%;
+    position: absolute;
+}
+
+#neptune_orbit{
+	border: 1px groove #fff;
+	border-radius: 360px;
+	padding: 360px;
+	position: absolute;
+	margin: 15px;
+	top: 3%;
+	left: 3%;
+}
+
+.uranus{
+	background-color: #bbb;
+	top: 0;
+    left: 29%;
+    position: absolute;
+}
+
+#uranus_orbit{
+	border: 1px groove #fff;
+	border-radius: 320px;
+	padding: 320px;
+	position: absolute;
+	margin: 15px;
+	top: 3%;
+	left: 3%;
+}
+
+.saturn{
+	background-color: pink;
+	bottom: 0;
+    left: 27%;
+    position: absolute;
+}
+
+#saturn_orbit{
+	border: 1px groove #fff;
+	border-radius: 280px;
+	padding: 280px;
+	position: absolute;
+	margin: 15px;
+	top: 4%;
+	left: 4%;
+}
+
+.jupiter{
+	background-color: brown;
+	right: 0;
+    bottom: 24%;
+    position: absolute;
+}#jupiter_orbit{
+	border: 1px groove #fff;
+	border-radius: 240px;
+	padding: 240px;
+	position: absolute;
+	margin: 15px;
+	top: 4%;
+	left: 4%;
+}
+
+.mars{
+	background-color: red;
+	right: 0;
+    top: 23%;
+    position: absolute;
+}
+
+#mars_orbit{
+	border: 1px groove #fff;
+	border-radius: 200px;
+	padding: 200px;
+	position: absolute;
+	margin: 15px;
+	top: 5%;
+	left: 5%;
+}
+
+.earth{
+	background-color: #68c4ad;
+	top: 0;
+    left: 19%;
+    position: absolute;
+}
+
+#earth_orbit{
+	border: 1px groove #fff;
+	border-radius: 160px;
+	padding: 160px;
+	position: absolute;
+	margin: 15px;
+	top: 6%;
+	left: 6%;
+}
+
+.venus{
+	background-color: #efb81f;
+	bottom: 0;
+    left: 15%;
+    position: absolute;
+}
+
+#venus_orbit{
+	border: 1px groove #fff;
+	border-radius: 120px;
+	padding: 120px;
+	position: absolute;
+	margin: 15px;
+	top: 7%;
+	left: 7%;
+}
+
+.mercury{
+	background-color: purple;
+	top: 5%;
+    right: 0;
+    position: absolute;
+}
+
+#mercury_orbit{
+	border: 1px groove #fff;
+	border-radius: 80px;
+	padding: 80px;
+	position: absolute;
+	margin: 15px;
+	top: 10%;
+	left: 10%;
+	width: 1%;
+  	height: 1%;
+}
+
+@keyframes spinner{
+	100%{
+		transform: rotate(360deg);
+		}
+}
+
+.rotate{
+	animation: spinner 100s linear infinite;
+}
